@@ -1,0 +1,121 @@
+/* Wrapper */
+#wrapper{
+    width: 1200px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+/* End Wrapper */
+
+/* Header */
+header{
+    background: #ffffff;
+    width: 100%;
+}
+header:after{
+    content: "";
+    clear: both;
+    display: block;
+    
+}
+#logo{
+	margin:left;
+}
+#search{
+	margin-top: 50;
+}
+
+#menu{
+	float: right;
+    margin-top: 28px;
+}
+
+.menu a{
+	margin: center;
+    text-decoration: none;
+    color: #000000;
+}
+.menu a:hover{
+    color: #blue;
+}
+.menu li{
+    float: left;
+    margin-left: 20px;
+     list-style-type:none;
+}
+
+/* Header */
+
+/* Banner */
+#banner{
+    max-height: 440px;
+    overflow: hidden;
+    position: relative;
+}
+#banner img{
+    width: 100%;
+}
+#banner #banner-overlay{
+    position: absolute;
+    top: 110px;
+    width: 100%;
+}
+#banner #banner-tittle{
+    color: #fff;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+#banner p{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 24px;
+    width: 100%;
+    max-width: 508px;
+}
+
+#banner a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background: green;
+    display: block;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin-top: 66px;
+    border-radius: 7px;
+}
+
+#banner a:hover{
+    background-color: #3a8f0a;
+}
+/* End Banner */
+
+/* Content */
+#content{
+    margin-top: 80px;
+  
+}
+#content section{
+    float: left;
+    width: 33%;
+    padding: 1px;
+    text-align: center;
+    color: #8c8b8b;
+    padding-bottom: 163px;
+}
+
+#content section li{
+    float: left;
+    margin-left: 20px;
+     list-style-type:none;
+}
+
+#content section a{
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.5;
+      list-style-type:none;
+}
